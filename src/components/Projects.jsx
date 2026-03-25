@@ -6,7 +6,7 @@ export default function Projects() {
 
         {/* Portfolio Website */}
         <div className="project-card">
-          <h3>📁 Portfolio Website</h3>
+          <h3>Portfolio Website</h3>
           <p>
             Personal portfolio built with React to showcase my skills, projects,
             and full-stack journey.
@@ -37,7 +37,7 @@ export default function Projects() {
 
         {/* EmergencyLens - IMPROVED */}
         <div className="project-card">
-          <h3>🚨 EmergencyLens</h3>
+          <h3>EmergencyLens</h3>
           <p>
             A real-time emergency guidance system providing step-by-step instructions 
             for fire, accidents, medical crises, crimes, natural disasters, and more.
@@ -71,7 +71,7 @@ export default function Projects() {
 
         {/* Full Stack Web Application */}
         <div className="project-card">
-          <h3>💻 Full Stack Web Application</h3>
+          <h3>Full Stack Web Application</h3>
           <p>
             Complete web application using React for frontend, PHP for backend,
             and MySQL for database management.

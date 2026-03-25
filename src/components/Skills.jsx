@@ -1,10 +1,10 @@
 export default function Skills() {
     const skills = {
-    frontend: ["⚛️ React", "📄 HTML", "🎨 CSS", "📜 JavaScript"],
-    backend: ["🐘 PHP"],
-    database: ["🗄️ MySQL"],
-    tools: ["🐙 GitHub"],
-    others: ["📜 Typing Expert", "🧠 Problem Solving (CodeChef, LeetCode)"]
+    frontend: ["React", "HTML", "CSS", "JavaScript"],
+    backend: ["PHP"],
+    database: ["MySQL"],
+    tools: ["GitHub"],
+    others: ["Typing Expert", "Problem Solving (CodeChef, LeetCode)"]
 };
 
     return (
