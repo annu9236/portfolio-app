@@ -17,7 +17,7 @@ export default function Projects() {
           </div>
           <div className="project-links-group">
             <a 
-              href="#" 
+              href="https://portfolio-app-alpha-ten.vercel.app" 
               target="_blank" 
               rel="noopener noreferrer"
               className="project-links live-demo"
@@ -25,7 +25,7 @@ export default function Projects() {
               🔗 Live Demo →
             </a>
             <a 
-              href="#" 
+              href="https://portfolio-app-alpha-ten.vercel.app" 
               target="_blank" 
               rel="noopener noreferrer"
               className="project-links github-link"
