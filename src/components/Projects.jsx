@@ -25,7 +25,7 @@ export default function Projects() {
               🔗 Live Demo →
             </a>
             <a 
-              href="https://portfolio-app-alpha-ten.vercel.app" 
+              href="https://github.com/annu9236/portfolio-app" 
               target="_blank" 
               rel="noopener noreferrer"
               className="project-links github-link"
