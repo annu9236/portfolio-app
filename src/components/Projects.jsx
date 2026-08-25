@@ -46,7 +46,7 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* Full Stack Web Application */}
+        {/* Full Stack Web Application
         <div className="project-card">
           <h3>Bus Ticket Booking System</h3>
           <p>
@@ -64,7 +64,7 @@ export default function Projects() {
             <a href="#" target="_blank" rel="noopener noreferrer" className="project-links live-demo">Live Demo</a>
             <a href="#" target="_blank" rel="noopener noreferrer"className="project-links github-link">GitHub</a>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </section>
