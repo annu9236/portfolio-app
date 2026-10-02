@@ -1,6 +1,5 @@
 import { FaLaravel, FaDatabase, FaCode, FaReact } from 'react-icons/fa';
 import { SiPhp, SiMysql } from 'react-icons/si';
-import { GiGearHammer } from 'react-icons/gi';
 import { BiLink } from 'react-icons/bi';
 
 export default function Services() {
@@ -8,36 +7,40 @@ export default function Services() {
     {
       icon: <SiPhp size={40} color="#38bdf8" />,
       title: "PHP / Laravel Development",
-      desc: "Custom web applications using PHP and Laravel framework with MVC architecture, authentication, and security features."
+      desc: "Development of practical web applications using PHP and Laravel with MVC architecture, authentication, CRUD operations, validation, and database integration."
     },
     {
       icon: <SiMysql size={40} color="#38bdf8" />,
-      title: "Database Design & Management",
-      desc: "MySQL database design, optimization, complex queries, and database migration using Laravel Eloquent."
+      title: "MySQL Database Development",
+      desc: "Design and management of MySQL databases with relationships, queries, data validation, and Laravel Eloquent for database operations."
     },
     {
       icon: <BiLink size={40} color="#38bdf8" />,
       title: "REST API Development",
-      desc: "Build secure and scalable RESTful APIs for web and mobile applications with proper authentication."
+      desc: "Development and integration of REST APIs using Laravel for handling structured data and communication between applications."
     },
     {
       icon: <FaReact size={40} color="#38bdf8" />,
       title: "Frontend Integration",
-      desc: "Integrate React.js, Bootstrap, and responsive designs with Laravel backend for complete solutions."
+      desc: "Integration of backend applications with React.js, JavaScript, Bootstrap, and responsive frontend components."
     }
   ];
 
   return (
     <section id="services" className="section">
       <h2 className="section-title">What I Offer</h2>
+
       <p className="section-subtitle">
-        Services and expertise I provide as a PHP/Laravel Developer
+        Development skills and solutions I can contribute as a PHP/Laravel Developer
       </p>
+
       <div className="services-grid">
         {services.map((service, index) => (
           <div className="service-card" key={index}>
             <div className="service-icon">{service.icon}</div>
+
             <h3>{service.title}</h3>
+
             <p>{service.desc}</p>
           </div>
         ))}
